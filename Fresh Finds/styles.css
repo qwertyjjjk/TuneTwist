@@ -1,0 +1,96 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(45deg, #fccf31, #F55555);
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.633);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Adjust the width as needed */
+    height: 150px;
+    margin-top: -5%;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 1%;
+    background-color: hwb(0 100% 0%)
+  }
+  
+  #songDisplay {
+    margin-top: 50px;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    font-weight: bold;
+  }
+  
+  #songDisplay a {
+    color: rgb(0, 255, 89) !important; /* Spotify green color */
+    text-decoration: underline; /* Remove underline */
+  }
+
+  .title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    font-size: 5em;
+    color: #ffffff;
+    position: relative;
+    margin-right: 100px; /* Adjust to move the title to the left */
+    padding-right: 50px;
+    
+  }
+  
+  .title::after {
+    content: '';
+    position: absolute;
+    height: 400%;
+    width: 5px;
+    background-color: white;
+    right: -10px; /* Adjust the distance from the title */
+    top: -120%;
+    bottom: 0;
+  }
+
+  .newsletter-signup {
+    text-align: center;
+    margin-top: 18%;
+    margin-left: -30.5%;
+    padding: -10px;
+    background-color: rgba(0, 0, 0, 0.633);
+    border-radius: 10px;
+    color:whitesmoke;
+  }
+  
+  input[type="email"] {
+    padding: 8px;
+    margin-left: 30px;
+    border: 1px solid #ccc;
+    height: 19.5px;
+    width: 290px;
+    background-color: rgb(245, 245, 245);
+    
+  }
+  
+  button {
+    padding: 8px 20px;
+    border: none;
+    background-color: #6A5ACD;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+    
+  }
